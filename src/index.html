@@ -9,30 +9,42 @@
 </head>
 
 <body>
+  <header class="bg-special sticky top-0 z-50 text-white ">
+    <div class="float-right sm:mr-44 cursor-pointer md:hidden">
+      <svg id="menu-button" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd" />
+      </svg>
+    </div>
+
+   <div class="container bg-special text-white "> 
+    <h1 class="md:text-2xl sm:text-lg">THE BURGER WORLD</h1>
+    <ul id="menu" class="flex justify-end pr-4 lg:gap-6 lg:pr-30 md:gap-8 sm:text-base sm:gap-2 sm:pr-24 md:text-xl">
+      <li><a href = "#home"  class="hover:text-bubble-gum">Home</a></li>
+      <li><a href = "#about"  class="hover:text-bubble-gum">About</a></li>
+      <li><a href = "#best" class="hover:text-bubble-gum">Best Selling </a></li>
+      <li><a href = "#contact"  class="hover:text-bubble-gum">Contact</a></li>
+    </ul> 
+     
+     
+      
+   </div>
+  </header>
 
 
 
-  <main>
 
-
-    <h1 class="text-3xl font-bold text-bubble-gum bg-silver">
-      THE BURGER WORLD
-    </h1>
-
-    <main>
-
-      <div class="relative pt-5 pb-36 flex content-center items-center justify-center" style="min-height: 95vh">
-        <div class="absolute top-0 w-full h-full bg-top bg-cover" style="background-image: url('../images/b3.jpg');">
+      <div id="home" class="relative pt-2 pb-36 flex content-center items-center justify-center" style="min-height: 90vh">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('../images/b3.jpg');">
           <span class="w-full h-full absolute opacity-5 "></span>
         </div>
         <div class="container relative mx-auto" data-aos="fade-in">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
-                <h1 class="text-silver font-semibold text-5xl">
+                <h1 class="text-silver sm:text-middle sm:text-base font-semibold md:text-5xl">
                   Happiness after <span class="text-bubble-gum">a bite!</span>
                 </h1>
-                <p class="mt-4 text-xl text-silver font-semibold">
+                <p class="mt-4 md:text-xl text-silver md:font-semibold">
                   Welcome to the burger world. We are focused on not just healthy and delicious burger but perfect and
                   safe meal as well</p>
                 <a href="#"
@@ -51,9 +63,12 @@
 
 
       <!-- About Section -->
-      <section class="relative py-10 bg-bermuda text-black">
+      <section id="about" class="relative py-10 bg-black text-white">
         <div class="container mx-auto px-4">
+          <h1 class="text-center text-2xl pt-5"> ABOUT US </h1>
+
           <div class="items-center flex flex-wrap">
+
             <div class="w-full md:w-4/12 ml-auto mr-auto px-5" data-aos="fade-right">
               <img class="max-1 rounded-sm shadow-lg" src="../images/b2.jpg" />
             </div>
@@ -99,6 +114,66 @@
                       </div>
                     </div>
                   </li>
+
+                  <li class="py-1">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="font-semibold inline-block py-3 mr-4 text-bubble-gum"><i
+                            class="fa-solid fa-truck fa-2x"></i></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Fast delivery</h4>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="py-1">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="font-semibold inline-block py-3 mr-4 text-bubble-gum"><i
+                            class="fa-solid fa-truck fa-2x"></i></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Fast delivery</h4>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="py-1">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="font-semibold inline-block py-3 mr-4 text-bubble-gum"><i
+                            class="fa-solid fa-truck fa-2x"></i></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Fast delivery</h4>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="py-1">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="font-semibold inline-block py-3 mr-4 text-bubble-gum"><i
+                            class="fa-solid fa-truck fa-2x"></i></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Fast delivery</h4>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="py-1">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="font-semibold inline-block py-3 mr-4 text-bubble-gum"><i
+                            class="fa-solid fa-truck fa-2x"></i></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Fast delivery</h4>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -110,7 +185,7 @@
 
 
       <!--Best selling -->
-      <section class="pt-20 pb-16 lg:pb-2 bg-white">
+      <section id="best" class="pt-20 pb-16 lg:pb-2 bg-white">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
@@ -162,12 +237,12 @@
 
 
       <!-- Contact  -->
-      <section class="relative block pt-56 pb-4 lg:py-6 lg:mt-64 lg:pt-0 bg-black">
+      <section  id="contact"  class="relative block pt-56 pb-16 lg:py-4 lg:mt-80 lg:pt-0 bg-black">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-80 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div class="flex-auto p-5 lg:p-10 text-white">
-                <h4 class="text-2xl lg:mb-3 font-bold">Want to make an order/complaint?</h4>
+                <h4 class="text-2xl lg:mb-1 font-bold">Want to make an order/complaint?</h4>
                 <p class="lg:mb-3 mt-1 mb-4">
                   Complete this form and we will get back to you within thirty minutes.
                 </p>
@@ -189,7 +264,7 @@
                 </div>
                 <div class="text-center mt-6">
                   <button
-                    class="bg-bubble-gum text-white hover:bg-purple hover:text-bermuda text-sm font-bold px-7 py-4 rounded mr-1 mb-0 lg:mb-0 mt-4"
+                    class="bg-bubble-gum text-white hover:bg-purple hover:text-bermuda text-sm font-bold px-7 py-2 rounded mr-1 mb-0 lg:mb-0 mt-4"
                     type="button">
                     SEND MESSSAGE
                   </button>
@@ -204,7 +279,7 @@
 
     <!-- Footer -->
     <footer class="relative bg-silver pt-8 pb-6">
-      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none -mt-20"
         style="height: 100px">
         <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
         </svg>
@@ -250,7 +325,7 @@
       </div>
     </footer>
 
-
+<script src="script.js"></script>
 
 
 

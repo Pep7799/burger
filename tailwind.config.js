@@ -14,6 +14,7 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'black': '#000000',
+      'special': '#1F1B1C',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -28,7 +29,15 @@ module.exports = {
       '85': '0.85',
       '100': '1',
      },
-    extend: {},
+    extend: {
+      screens: {
+        
+        'sm': '320px',
+        'md': '768px',
+        'lg': '1024px'
+        
+      },
+    },
   },
   plugins: [],
 }
