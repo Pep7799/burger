@@ -562,9 +562,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 640px) {
   .container {
-    max-width: 320px;
+    max-width: 640px;
   }
 }
 
@@ -1095,7 +1095,7 @@ video {
   outline-offset: 2px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 640px) {
   .sm\:mr-44 {
     margin-right: 11rem;
   }

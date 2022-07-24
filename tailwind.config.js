@@ -30,13 +30,7 @@ module.exports = {
       '100': '1',
      },
     extend: {
-      screens: {
-        
-        'sm': '320px',
-        'md': '768px',
-        'lg': '1024px'
-        
-      },
+      
     },
   },
   plugins: [],
